@@ -15,7 +15,7 @@
 
 •	First, to be able to use SNCosmo, you need to convert all the SNooPy files to a format that is compatible with SNCosmo. This can be done using the “To_SNCosmo.ipynb” code.
 
-•	Now you can use SNCosmo to its full extent and derive the parameters you need to make the lightcurve plots, as well as calculate the peak magnitude for every supernova using the code “SN_data.ipynb”. All the parameters are eventually saved in a file in the folder named “lists” depending on the model you used. I also tried to run the code with the same 4 models but fit the redshift (z) instead of using the one I had from the initial data.
+•	Now you can use SNCosmo to its full extent and derive the parameters you need to make the lightcurve plots, as well as calculate the peak magnitude for every supernova using the code “SN_data.ipynb”. All the parameters are eventually saved in a file in the folder named “lists” depending on the model you used. I also run the code with the same 4 models but fit the redshift (z) instead of using the one I had from the initial data.
 
 •	This way you are able to compare the different models with fitted or fixed redshift, which can easily be done using the code “comparison.ipynb” and the file “models.csv”. After the comparison, I concluded that the best way to continue the project is with the salt3-nir model and using the fixed redshift I had from the initial data, but one can try another model without making big changes to the code. Some diagrams from the comparison are displayed in the folder “comparison_plots” as examples.
 
